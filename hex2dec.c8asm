@@ -1,0 +1,15 @@
+cls
+ld V3, 80
+ld V4, 00
+ld V5, 00
+ld I, 500
+ld B, V3
+ld V2, [I]
+ld F, V2
+drw V4, V5, 5
+ld F, V1
+add V4, 08
+drw V4, V5, 5
+ld F, V2
+add V4, 08
+drw V4, V5, 5
